@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="CSS.css">
+<link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
+<script src="javascript.js"></script>
+</head>
+<body>
+<div class="top">
+<h1>9O MAGIC</h1>
+<div class="navbar">
+<h6 class="current">HOME</h6>
+<h6>|</h6>
+<a href="intro.html"><h6>INTRODUCTION</h6></a>
+<h6>|</h6>
+<a href="litrev.html"><h6>LITERATURE REVIEW</h6></a>
+<h6>|</h6>
+<a href="disc.html"><h6>DISCUSSION</h6></a>
+<h6>|</h6>
+<a href="ref.html"><h6>REFERENCES</h6></a>
+</div>
+</div>
+
+<div class="home">
+<div class="overlay" style="margin-top:0.3%;">
+<p>INTRODUCING</p>
+</div>
+<div class="overlay" style="margin-top:4.25%; font-size:24px; border-bottom:thin solid #ECECEC;">
+<h2>9O MAGIC</h2>
+</div>
+<div class="overlay" style="margin-top:10.95%; font-size:16px;">
+<h2>MAGIC REALISM IN BIRDMAN</h2>
+</div>
+<div class="overlay" style="margin-top:16.25%; font-size:18px;">
+<a href="intro.html"><h4>GET STARTED</h4></a>
+</div>
+<img class="mySlides" src="https://static.wixstatic.com/media/2d56dc_1ae562f3b36840c9a2a790922e87e141~mv2.jpg/v1/fill/w_1114,h_705,al_c,q_85/2d56dc_1ae562f3b36840c9a2a790922e87e141~mv2.webp">
+<img class="mySlides" src="https://static.wixstatic.com/media/2d56dc_413709d9d6d74ab687bf8db8d732c56d~mv2.jpg/v1/fill/w_1195,h_756,al_c,q_85/2d56dc_413709d9d6d74ab687bf8db8d732c56d~mv2.webp">
+<img class="mySlides" src="https://static.wixstatic.com/media/2d56dc_53aa7ed45fda4d4bbe67955b49712d6e~mv2_d_1920_1200_s_2.jpg/v1/fill/w_1225,h_775,al_c,q_85,usm_0.66_1.00_0.01/2d56dc_53aa7ed45fda4d4bbe67955b49712d6e~mv2_d_1920_1200_s_2.webp">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3500); // Change image every 2 seconds
+}
+</script>
+
+<div class="copyright">
+<p class="cr">© 2017 by Austin Ong Wei Zhi</p>
+</div>
+</body>
+</html>

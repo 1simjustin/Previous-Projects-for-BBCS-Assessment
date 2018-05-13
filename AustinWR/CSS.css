@@ -1,0 +1,181 @@
+html {
+background-color:#383838;
+font-family:"Arial";
+word-spacing:4px;
+}
+
+mark {
+background-color:#DD9946;
+color:#ECECEC;
+}
+
+div {
+text-align:center;
+}
+
+h1 {
+font-size: 40px;
+letter-spacing:13px;
+}
+
+h6 {
+display:inline;
+padding-left:2%;
+font-size:10px;
+letter-spacing:2px;
+}
+
+.top {
+color:#DD9946;
+padding-top:3%;
+padding-bottom:4%;
+}
+
+.navbar {
+padding-top:0.5%;
+}
+
+.current {
+color:#ECECEC;
+}
+
+h6:hover {
+color:#ECECEC;
+}
+
+h4:hover {
+color:#ECECEC;
+}
+
+a:link {
+color:#DD9946;
+background-color:transparent;
+text-decoration: none;
+}
+a:visited {
+color:#DD9946;
+background-color:transparent;
+text-decoration: none;
+}
+a:active {
+color:#DD9946;
+background-color:transparent;
+text-decoration:none;
+}
+
+
+home {
+width: 55%;
+margin:auto;
+}
+
+.mySlides {
+width:65%;
+height:65%;
+display:none;
+margin:auto;
+}
+
+.overlay {
+position:absolute;
+color:#DD9946;
+letter-spacing:3px;
+text-align:center;
+background-color:#202020;
+padding:0 1%;
+margin-left:17.35%
+}
+
+
+.heading{
+background-color: #202020;
+color:#DD9946;
+letter-spacing:5px;
+margin:auto;
+height:100%;
+width:55%;
+margin-bottom:3%;
+}
+
+h3 {
+margin:auto;
+padding-top:6%;
+padding-bottom:6%;
+font-size:25px;
+}
+
+
+.introbody {
+color:#ECECEC;
+font-size:20px;
+width:55%;
+margin:auto;
+text-align:justify;
+}
+
+.introbody1 {
+color:#ECECEC;
+font-size:20px;
+width:55%;
+margin:auto;
+text-align:center;
+}
+
+.copyright {
+margin:auto;
+width:55%;
+color:#ECECEC;
+font-size: 10px;
+word-wrap:break-word;
+text-align:left;
+padding-top:0.75%;
+}
+
+.reflist {
+margin:auto;
+width:55%;
+color:#ECECEC;
+font-size: 20px;
+word-wrap:break-word;
+}
+
+.refer {
+font-size:20px;
+line-height:150%;
+text-align:justify;
+}
+
+.sideleft {
+position:absolute;
+font-size:25px;
+text-align:right;
+color:black;
+width:20%;
+margin-left:0.8%;
+font-family:"Open Sans Condensed";
+}
+
+.sideright {
+position:absolute;
+font-size:25px;
+text-align:left;
+color:black;
+width:20%;
+margin-left:78.5%;
+font-family:"Open Sans Condensed";
+}
+
+.litimg {
+display:inline;
+padding:2% 5.5% 0 5.5%;
+text-align:left;
+font-size:20px;
+color:#ECECEC;
+letter-spacing:2px;
+word-spacing:130px;
+}
+
+.capt {
+font-size:15px;
+color:#ECECEC;
+}
