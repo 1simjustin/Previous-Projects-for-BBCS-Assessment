@@ -1,0 +1,23 @@
+Test Case 1(Normal inputs):
+Input 1: 1
+Input 2: test
+Expected Output:
+test
+test
+test
+There were 3 matching term(s)
+
+Test Case 2(Lower Bound Normal Input):
+Input 1: 1
+Input 2: nil
+Expected Output:
+There were 0 matching term(s)
+
+Test Case 3(Stop Input Check):
+Input 1: XXX
+>>>
+
+Test Case 4(Error Input Check):
+Input 1: A
+Expected Output:
+Invalid, try again.

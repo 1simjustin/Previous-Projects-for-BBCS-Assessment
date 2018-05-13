@@ -1,0 +1,7 @@
+copy = input("First file(xx.txt): ")
+paste = input("Second file(xx.txt): ")
+f1 = open(copy, "r")
+f2 = open(paste, "w")
+f2.write(f1.read())
+f1.close()
+f2.close()

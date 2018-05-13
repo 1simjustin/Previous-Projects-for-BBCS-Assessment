@@ -1,0 +1,17 @@
+bravo
+alpha
+charlie
+echo
+omega
+delta
+oscar
+india
+hotel
+omega
+delta
+omega
+bravo
+charlie
+hotel
+delta
+delta
